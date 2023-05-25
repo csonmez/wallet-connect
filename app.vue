@@ -1,4 +1,4 @@
-<script>
+<script setup>
 import AuthClient, { generateNonce } from '@walletconnect/auth-client'
 import { Web3Modal } from '@web3modal/standalone'
 
