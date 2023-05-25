@@ -25,8 +25,8 @@ authClient.on('auth_response', ({ params }) => {
 })
 
 const { uri } = await authClient.request({
-  aud: 'https://yourapp.com/',
-  domain: 'yourapp.com',
+  aud: 'https://admirable-brigadeiros-d6392c.netlify.app/',
+  domain: 'admirable-brigadeiros-d6392c.netlify.app',
   chainId: 'eip155:1',
   type: 'eip4361',
   nonce: generateNonce(),
